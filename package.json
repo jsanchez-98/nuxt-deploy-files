@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.0",
+    "@nuxtjs/recaptcha": "^1.0.4",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "jspdf": "^2.3.0",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.4",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
+  }
+}
